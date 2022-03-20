@@ -50,8 +50,11 @@ namespace WolfTooth
                 var radio = radios[i];
                 if (radio.Name.Equals("Bluetooth"))
                 {
+                    // toggle bluetooth
                     await radio.SetStateAsync(RadioState.Off);
                     await radio.SetStateAsync(RadioState.On);
+
+                    // kill the app
                     CoreApplication.Exit();
                     return;
                 }

@@ -8,7 +8,7 @@
 
   <Identity
     Name="a3c05375-a445-458e-8e56-bb05db3ae129"
-    Publisher="CN=fabia"
+    Publisher="CN=0xFAB"
     Version="1.0.0.0" />
 
   <mp:PhoneIdentity PhoneProductId="a3c05375-a445-458e-8e56-bb05db3ae129" PhonePublisherId="00000000-0000-0000-0000-000000000000"/>
@@ -51,7 +51,7 @@
   </Applications>
 
   <Capabilities>
-    <Capability Name="internetClient" />
+    <!--<Capability Name="internetClient" />-->
     <DeviceCapability Name="radios" />
   </Capabilities>
 </Package>
